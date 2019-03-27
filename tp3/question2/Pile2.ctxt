@@ -29,5 +29,5 @@ comment8.params=
 comment8.target=java.lang.String\ toString()
 comment8.text=\r\n\ Retourne\ une\ representation\ en\ String\ d'une\ pile,\ contenant\ la\r\n\ representation\ en\ String\ de\ chaque\ element.\r\n\ \r\n\ @return\ une\ representation\ en\ String\ d'une\ pile\r\n
 comment9.params=o
-comment9.target=boolean\ equals(java.lang.Object)
+comment9.target=boolean\ equals(Pile2)
 numComments=13

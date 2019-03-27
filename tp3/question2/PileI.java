@@ -5,7 +5,7 @@ import question1.PileVideException;
 
 public interface PileI {
   
-    public final static int CAPACITE_PAR_DEFAUT = 6;
+    public final static int CAPACITE_PAR_DEFAUT = 5;
     
     public void empiler(Object o) throws PilePleineException;
     public Object depiler() throws PileVideException;

@@ -40,12 +40,16 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
         assertEquals(p1.capacite(), p2.capacite());
         assertEquals(p2.capacite(), p3.capacite());
         assertEquals(p3.capacite(), p4.capacite());
-
+        
+        String s1=p1.toString();
         assertEquals("[a, b]", p1.toString());
         assertEquals(p1.toString(), p2.toString());
         assertEquals(p2.toString(), p3.toString());
         assertEquals(p3.toString(), p4.toString());
-
+        
+        String s3=p3.toString();
+        String s4=p4.toString();
+        
         assertEquals(p1.sommet(), p2.sommet());
         assertEquals(p2.sommet(), p3.sommet());
         assertEquals(p3.sommet(), p4.sommet());
@@ -154,8 +158,7 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
         p3.depiler();
         p2.depiler();
         p1.depiler();
-
-        assertEquals("p1.toString() != p2.toString() ?? ", p1.toString(), p2.toString());
+       
         assertEquals("p2.toString() != p3.toString() ?? ",p2.toString(), p3.toString());
         assertEquals("p3.toString() != p4.toString() ?? ", p3.toString(), p4.toString());
 
